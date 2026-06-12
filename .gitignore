@@ -1,5 +1,4 @@
-animals.csv
-billionaires.json
-richpeople.xlsx
-
-.ipynb_checkpoints
+*.csv
+*.json
+*.xlsx
+.ipynb_checkpoints 
