@@ -4,7 +4,7 @@
 *.xlsx
 
 #Jupyter notebook autosave checkpoints
-.ipynb_checkpoints r
+.ipynb_checkpoints
 
 #DS Store
 .DS_Store
