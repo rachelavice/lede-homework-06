@@ -1,4 +1,10 @@
+#Data files
 *.csv
 *.json
 *.xlsx
-.ipynb_checkpoints 
+
+#Jupyter notebook autosave checkpoints
+.ipynb_checkpoints r
+
+#DS Store
+.DS_Store
