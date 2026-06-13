@@ -28,7 +28,7 @@ jobs:
     - name: Install all necessary packages
       run: pip install jupyter lxml pandas numpy requests beautifulsoup4 html5lib
     - name: Scraping today's data
-      run: jupyter nbconvert --to notebook --execute "hw-07/homework-07-pt2.ipynb" --inplace
+      run: jupyter nbconvert --to notebook --execute "hw-07/homework-07-pt2.ipynb" --inplace --ExecutePreprocessor.kernel_name=python3
     - name: Commit and push any changes
       run: |-
         git config user.name "Automated"
